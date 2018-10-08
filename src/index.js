@@ -2,9 +2,6 @@ import Matter from 'matter-js';
 
 const { Engine, Render, World, Bodies } = Matter;
 
-const canvas = document.querySelector('#cv');
-const context = canvas.getContext('2d');
-
 const engine = Engine.create();
 const render = Render.create({
   element: document.body,
