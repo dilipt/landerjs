@@ -1,9 +1,0 @@
-{
-    "extends": "airbnb-base",
-    "rules": {
-        "object-curly-newline": ["error", { "multiline": true }]    
-    },
-    "env": {
-        "browser": true
-    }
-}
