@@ -1,33 +1,15 @@
 {
-  "name": "landerjs",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "matter-js": "^0.14.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-jss": "^10.0.0",
-    "react-scripts": "^3.3.0"
-  },
+  "name": "lunar-lander",
+  "version": "1.0.0",
+  "description": "A 2D lunar lander game",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "python3 -m http.server 8000"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }
